@@ -1,0 +1,183 @@
+Sr. No.,Pl. Name,Price,Sold to
+1,Noor Ahmad  ,100000000, Chennai Super Kings
+2,Ravichandaran Ashwin,97500000, Chennai Super Kings
+3,Devon Conway  ,62500000, Chennai Super Kings
+4,Syed Khaleel Ahmed,48000000, Chennai Super Kings
+5,Rachin Ravindra  ,40000000, Chennai Super Kings
+6,Anshul Kamboj,34000000, Chennai Super Kings
+7,Rahul Tripathi,34000000, Chennai Super Kings
+8,Sam Curran  ,24000000, Chennai Super Kings
+9,Gurjapneet Singh,22000000, Chennai Super Kings
+10,Nathan Ellis  ,20000000, Chennai Super Kings
+11,Deepak Hooda,17000000, Chennai Super Kings
+12,Jamie Overton  ,15000000, Chennai Super Kings
+13,Vijay Shankar,12000000, Chennai Super Kings
+14,Vansh Bedi,5500000, Chennai Super Kings
+15,Andre Siddarth,3000000, Chennai Super Kings
+16,Shreyas Gopal,3000000, Chennai Super Kings
+17,Ramakrishna Ghosh,3000000, Chennai Super Kings
+18,Kamlesh Nagarkoti,3000000, Chennai Super Kings
+19,Mukesh Choudhary,3000000, Chennai Super Kings
+20,Shaik Rasheed,3000000, Chennai Super Kings
+1,KL Rahul,140000000, Delhi Capitals
+2,Mitchell Starc  ,117500000, Delhi Capitals
+3,T. Natarajan,107500000, Delhi Capitals
+4,Jake Fraser-Mcgurk  ,90000000, Delhi Capitals
+5,Mukesh Kumar,80000000, Delhi Capitals
+6,Harry Brook  ,62500000, Delhi Capitals
+7,Ashutosh Sharma,38000000, Delhi Capitals
+8,Mohit Sharma,22000000, Delhi Capitals
+9,Faf Du Plessis  ,20000000, Delhi Capitals
+10,Sameer Rizvi,9500000, Delhi Capitals
+11,Donovan Ferreira  ,7500000, Delhi Capitals
+12,Dushmantha Chameera  ,7500000, Delhi Capitals
+13,Vipraj Nigam,5000000, Delhi Capitals
+14,Karun Nair,5000000, Delhi Capitals
+15,Madhav Tiwari,4000000, Delhi Capitals
+16,Tripurana Vijay,3000000, Delhi Capitals
+17,Manvanth Kumar L,3000000, Delhi Capitals
+18,Ajay Mandal,3000000, Delhi Capitals
+19,Darshan Nalkande,3000000, Delhi Capitals
+1,Jos  Buttler   ,157500000, Gujarat Titans
+2,Mohammad Siraj,122500000, Gujarat Titans
+3,Kagiso Rabada  ,107500000, Gujarat Titans
+4,Prasidh Krishna,95000000, Gujarat Titans
+5,Washington Sundar,32000000, Gujarat Titans
+6,Sherfane Rutherford  ,26000000, Gujarat Titans
+7,Gerald Coetzee  ,24000000, Gujarat Titans
+8,Glenn Phillips  ,20000000, Gujarat Titans
+9,R. Sai Kishore,20000000, Gujarat Titans
+10,Mahipal Lomror,17000000, Gujarat Titans
+11,Gurnoor Singh Brar,13000000, Gujarat Titans
+12,Mohd. Arshad Khan,13000000, Gujarat Titans
+13,Karim Janat  ,7500000, Gujarat Titans
+14,Jayant Yadav,7500000, Gujarat Titans
+15,Ishant Sharma,7500000, Gujarat Titans
+16,Kumar Kushagra,6500000, Gujarat Titans
+17,Kulwant Khejroliya,3000000, Gujarat Titans
+18,Manav Suthar,3000000, Gujarat Titans
+19,Anuj Rawat,3000000, Gujarat Titans
+20,Nishant Sindhu,3000000, Gujarat Titans
+1,Venkatesh Iyer,237500000, Kolkata Knight Riders
+2,Anrich Nortje  ,65000000, Kolkata Knight Riders
+3,Quinton De Kock  ,36000000, Kolkata Knight Riders
+4,Angkrish Raghuvanshi,30000000, Kolkata Knight Riders
+5,Spencer Johnson  ,28000000, Kolkata Knight Riders
+6,Moeen Ali  ,20000000, Kolkata Knight Riders
+7,Rahmanullah Gurbaz  ,20000000, Kolkata Knight Riders
+8,Vaibhav Arora,18000000, Kolkata Knight Riders
+9,Ajinkya Rahane,15000000, Kolkata Knight Riders
+10,Rovman Powell  ,15000000, Kolkata Knight Riders
+11,Umran  Malik,7500000, Kolkata Knight Riders
+12,Manish Pandey,7500000, Kolkata Knight Riders
+13,Anukul Roy,4000000, Kolkata Knight Riders
+14,Luvnith Sisodia,3000000, Kolkata Knight Riders
+15,Mayank Markande,3000000, Kolkata Knight Riders
+1,Rishabh Pant,270000000, Lucknow Super Giants
+2,Avesh Khan,97500000, Lucknow Super Giants
+3,Akash Deep,80000000, Lucknow Super Giants
+4,David Miller  ,75000000, Lucknow Super Giants
+5,Abdul Samad,42000000, Lucknow Super Giants
+6,Mitchell Marsh  ,34000000, Lucknow Super Giants
+7,Shahbaz Ahamad,24000000, Lucknow Super Giants
+8,Aiden Markram  ,20000000, Lucknow Super Giants
+9,Matthew Breetzke  ,7500000, Lucknow Super Giants
+10,Shamar Joseph  ,7500000, Lucknow Super Giants
+11,M. Siddharth,7500000, Lucknow Super Giants
+12,Arshin Kulkarni,3000000, Lucknow Super Giants
+13,Rajvardhan Hangargekar,3000000, Lucknow Super Giants
+14,Yuvraj Chaudhary,3000000, Lucknow Super Giants
+15,Prince Yadav,3000000, Lucknow Super Giants
+16,Akash Singh,3000000, Lucknow Super Giants
+17,Digvesh Singh,3000000, Lucknow Super Giants
+18,Himmat Singh,3000000, Lucknow Super Giants
+19,Aryan Juyal,3000000, Lucknow Super Giants
+1,Trent Boult  ,125000000, Mumbai Indians
+2,Deepak Chahar,92500000, Mumbai Indians
+3,Will Jacks  ,52500000, Mumbai Indians
+4,Naman Dhir,52500000, Mumbai Indians
+5,Allah  Ghazanfar  ,48000000, Mumbai Indians
+6,Mitchell Santner  ,20000000, Mumbai Indians
+7,Ryan Rickelton  ,10000000, Mumbai Indians
+8,Lizaad Williams  ,7500000, Mumbai Indians
+9,Reece Topley  ,7500000, Mumbai Indians
+10,Robin Minz,6500000, Mumbai Indians
+11,Karn Sharma,5000000, Mumbai Indians
+12,Vignesh Puthur,3000000, Mumbai Indians
+13,Arjun  Tendulkar,3000000, Mumbai Indians
+14,Bevan John Jacobs  ,3000000, Mumbai Indians
+15,Venkata Satyanarayana Penmetsa,3000000, Mumbai Indians
+16,Raj Angad Bawa,3000000, Mumbai Indians
+17,Shrijith Krishnan,3000000, Mumbai Indians
+18,Ashwani Kumar,3000000, Mumbai Indians
+1,Shreyas Iyer,267500000, Punjab Kings
+2,Yuzvendra Chahal,180000000, Punjab Kings
+3,Arshdeep Singh,180000000, Punjab Kings
+4,Marcus Stoinis  ,110000000, Punjab Kings
+5,Marco Jansen  ,70000000, Punjab Kings
+6,Nehal Wadhera,42000000, Punjab Kings
+7,Glenn Maxwell  ,42000000, Punjab Kings
+8,Priyansh Arya,38000000, Punjab Kings
+9,Josh Inglis  ,26000000, Punjab Kings
+10,Azmatullah Omarzai  ,24000000, Punjab Kings
+11,Lockie Ferguson  ,20000000, Punjab Kings
+12,Vyshak Vijaykumar,18000000, Punjab Kings
+13,Yash Thakur,16000000, Punjab Kings
+14,Harpreet  Brar,15000000, Punjab Kings
+15,Aaron Hardie  ,12500000, Punjab Kings
+16,Vishnu Vinod,9500000, Punjab Kings
+17,Xavier Bartlett  ,8000000, Punjab Kings
+18,Kuldeep  Sen,8000000, Punjab Kings
+19,Pravin Dubey,3000000, Punjab Kings
+20,Pyla Avinash,3000000, Punjab Kings
+21,Suryansh  Shedge ,3000000, Punjab Kings
+22,Musheer Khan,3000000, Punjab Kings
+23,Harnoor Pannu,3000000, Punjab Kings
+1,Jofra Archer  ,125000000, Rajasthan Royals
+2,Tushar Deshpande,65000000, Rajasthan Royals
+3,Wanindu Hasaranga  ,52500000, Rajasthan Royals
+4,Maheesh Theekshana  ,44000000, Rajasthan Royals
+5,Nitish Rana,42000000, Rajasthan Royals
+6,Fazalhaq Farooqi  ,20000000, Rajasthan Royals
+7,Kwena Maphaka  ,15000000, Rajasthan Royals
+8,Akash Madhwal,12000000, Rajasthan Royals
+9,Vaibhav Suryavanshi,11000000, Rajasthan Royals
+10,Shubham Dubey,8000000, Rajasthan Royals
+11,Yudhvir Charak,3500000, Rajasthan Royals
+12,Ashok Sharma,3000000, Rajasthan Royals
+13,Kunal Rathore,3000000, Rajasthan Royals
+14,Kumar Kartikeya Singh,3000000, Rajasthan Royals
+1,Josh Hazlewood   ,125000000, Royal Challengers Bengaluru
+2,Phil Salt  ,115000000, Royal Challengers Bengaluru
+3,Jitesh Sharma,110000000, Royal Challengers Bengaluru
+4,Bhuvneshwar Kumar,107500000, Royal Challengers Bengaluru
+5,Liam Livingstone  ,87500000, Royal Challengers Bengaluru
+6,Rasikh Dar,60000000, Royal Challengers Bengaluru
+7,Krunal Pandya,57500000, Royal Challengers Bengaluru
+8,Tim David  ,30000000, Royal Challengers Bengaluru
+9,Jacob Bethell  ,26000000, Royal Challengers Bengaluru
+10,Suyash Sharma,26000000, Royal Challengers Bengaluru
+11,Devdutt Padikkal,20000000, Royal Challengers Bengaluru
+12,Nuwan Thushara  ,16000000, Royal Challengers Bengaluru
+13,Romario Shepherd  ,15000000, Royal Challengers Bengaluru
+14,Lungisani Ngidi  ,10000000, Royal Challengers Bengaluru
+15,Swapnil Singh,5000000, Royal Challengers Bengaluru
+16,Mohit Rathee,3000000, Royal Challengers Bengaluru
+17,Abhinandan Singh,3000000, Royal Challengers Bengaluru
+18,Swastik Chhikara,3000000, Royal Challengers Bengaluru
+19,Manoj Bhandage,3000000, Royal Challengers Bengaluru
+1,Ishan Kishan,112500000, Sunrisers Hyderabad
+2,Mohammad Shami,100000000, Sunrisers Hyderabad
+3,Harshal Patel,80000000, Sunrisers Hyderabad
+4,Abhinav Manohar,32000000, Sunrisers Hyderabad
+5,Rahul Chahar,32000000, Sunrisers Hyderabad
+6,Adam Zampa  ,24000000, Sunrisers Hyderabad
+7,Simarjeet Singh,15000000, Sunrisers Hyderabad
+8,Eshan Malinga  ,12000000, Sunrisers Hyderabad
+9,Brydon Carse  ,10000000, Sunrisers Hyderabad
+10,Jaydev Unadkat,10000000, Sunrisers Hyderabad
+11,Kamindu Mendis  ,7500000, Sunrisers Hyderabad
+12,Zeeshan Ansari,4000000, Sunrisers Hyderabad
+13,Sachin Baby,3000000, Sunrisers Hyderabad
+14,Aniket Verma,3000000, Sunrisers Hyderabad
+15,Atharva Taide,3000000, Sunrisers Hyderabad
