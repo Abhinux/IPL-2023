@@ -1,5 +1,5 @@
 # IPL-2023
-In this project, we did a predictive analysis of team spendings per team in the last five years.
+In this project, we did a descriptive analysis of team spendings per team in the last five years.
 Run <ins>**index.py**</ins> to run data collection and <ins>**index.html**</ins> to run the html.
 
 ## Data Collection
