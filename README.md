@@ -19,4 +19,4 @@ We handled data transformation in "Data_collection.py" file while writing data i
 
 ## Visual Representation
 You can find it in "Data Visualisation.py" file in which we used line graphs to plot yearly spendings of each team.
-As well as index.html which displays data in form of pie charts and bar graphs.
+As well as 'index.html' which displays data in form of pie charts and bar graphs.
