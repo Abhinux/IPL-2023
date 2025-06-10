@@ -15,6 +15,7 @@ PK=[]
 SH=[]
 DC=[]
 
+
 # function to sum the spendings and appending to their respective list
 def sum_of_team(file):
     global CSK,KKR,DC,GT,SH,RCB,MI,PK,LSG,RR
@@ -76,6 +77,35 @@ sum_of_team('storage/player_data3.csv')
 sum_of_team('storage/player_data4.csv')
 sum_of_team('storage/player_data5.csv')
 
+Team_data=[]
+
+def set_team_data(team:str,team_data:list):
+    Team={}
+    Team["Team"]=team
+    Team["2021"]=team_data[0]
+    Team["2022"]=team_data[1]
+    Team["2023"]=team_data[2]
+    Team["2024"]=team_data[3]
+    Team["2025"]=team_data[4]
+    Team_data.append(Team)
+
+set_team_data("Chennai Super Kings",CSK)
+set_team_data("Rajasthan Royals",RR)
+set_team_data("Mumbai Indian",MI)
+set_team_data("Kolkata Knight Riders",KKR)
+set_team_data("Lucknow Super Giants",LSG)
+set_team_data("Punjab Kings",PK)
+set_team_data("Delhi Capitals",DC)
+set_team_data("Royal Challengers Bangalore",RCB)
+set_team_data("Sunrisers Hyderabad",SH)
+set_team_data("Gujrat Titans",GT)
+
+with open( 'storage/Team_data.csv' ,'w') as f:
+    w = csv.DictWriter(f,['Team','2021','2022','2023','2024','2025'])
+    w.writeheader()
+    for data in Team_data:
+        w.writerow(data)
+
 # X-axis contains year
 X_Value=[2021,2022,2023,2024,2025]
 
@@ -87,6 +117,7 @@ mpl.axis('off')
 
 # For Chennai Super Kings
 mpl.subplot(4,5,1)
+mpl.grid("on")
 mpl.plot(X_Value,CSK, color='y',marker='o',label='CSK',ls=':')
 mpl.title("CSK")
 mpl.xlabel("Years")
@@ -94,6 +125,7 @@ mpl.ylabel("Spending in 10 crores")
 
 # For Kolkata Knight Riders
 mpl.subplot(4,5,3)
+mpl.grid("on")
 mpl.plot(X_Value,KKR, color='purple',marker='o',label='KKR',ls=':')
 mpl.title("KKR")
 mpl.xlabel("Years")
@@ -101,6 +133,7 @@ mpl.ylabel("Spending in 10 crores")
 
 # For Mumbai Indians
 mpl.subplot(4,5,5)
+mpl.grid("on")
 mpl.plot(X_Value,MI, color='#0000ff',marker='o',label='MI',ls=':')
 mpl.title("MI")
 mpl.xlabel("Years")
@@ -108,6 +141,7 @@ mpl.ylabel("Spending in 10 crores")
 
 # For Delhi Capitals
 mpl.subplot(4,5,7)
+mpl.grid("on")
 mpl.plot(X_Value,DC, color='#c92d2d',marker='o',label='DC',ls=':')
 mpl.title("DC")
 mpl.xlabel("Years")
@@ -115,6 +149,7 @@ mpl.ylabel("Spending in 10 crores")
 
 # For Rajasthan Royals
 mpl.subplot(4,5,9)
+mpl.grid("on")
 mpl.plot(X_Value,RR, color='#d909a5',marker='o',label='RR',ls=':')
 mpl.title("RR")
 mpl.xlabel("Years")
@@ -122,6 +157,7 @@ mpl.ylabel("Spending in 10 crores")
 
 # For Punjab Kings
 mpl.subplot(4,5,11)
+mpl.grid("on")
 mpl.plot(X_Value,PK, color='#ff0000',marker='o',label='PK',ls=':')
 mpl.title("PK")
 mpl.xlabel("Years")
@@ -129,6 +165,7 @@ mpl.ylabel("Spending in 10 crores")
 
 # For Royal Challengers Banglore
 mpl.subplot(4,5,13)
+mpl.grid("on")
 mpl.plot(X_Value,RCB, color='#800707',marker='o',label='RCB',ls=':')
 mpl.title("RCB")
 mpl.xlabel("Years")
@@ -136,6 +173,7 @@ mpl.ylabel("Spending in 10 crores")
 
 # For Gujrat Titans
 mpl.subplot(4,5,15)
+mpl.grid("on")
 mpl.plot(X_Value,GT, color='#9f950a',marker='o',label='GT',ls=':')
 mpl.title("GT")
 mpl.xlabel("Years")
@@ -143,6 +181,7 @@ mpl.ylabel("Spending in 10 crores")
 
 # For Lucknow Super Giants
 mpl.subplot(4,5,17)
+mpl.grid("on")
 mpl.plot(X_Value,LSG, color='#01c4a0',marker='o',label='LSG',ls=':')
 mpl.title("LSG")
 mpl.xlabel("Years")
@@ -150,6 +189,7 @@ mpl.ylabel("Spending in 10 crores")
 
 # For Sunrisers Hyderabad
 mpl.subplot(4,5,19)
+mpl.grid("on")
 mpl.plot(X_Value,SH, color='orange',marker='o',label='SH',ls=':')
 mpl.title("SH")
 mpl.xlabel("Years")
