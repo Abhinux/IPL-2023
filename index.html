@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script>
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawStuff);
+
+        function drawStuff() {
+            var data2021 = new google.visualization.arrayToDataTable([
+                ['Team', 'spending in crores'],
+                ["Chennai Super Kings", 17.35],
+                ["Rajasthan Royals", 24.2],
+                ["Mumbai Indians", 11.7],
+                ["Kolkata Knight Riders", 7.55],
+                ['Lucknow Super Giants', 0.0],
+                ["Punjab Kings", 34.4],
+                ["Delhi Capitals", 11.25],
+                ["Royal Challengers Bangalore", 35.05],
+                ["Sunrisers Hyderabad", 3.8],
+                ['Gujrat Titans', 0.0]
+            ]);
+            var data2022 = new google.visualization.arrayToDataTable([
+                ['Team', 'spending in crores'],
+                ["Chennai Super Kings", 45.05],
+                ["Rajasthan Royals", 61.05],
+                ["Mumbai Indians", 47.9],
+                ["Kolkata Knight Riders", 47.55],
+                ['Lucknow Super Giants', 59],
+                ["Punjab Kings", 68.55],
+                ["Delhi Capitals", 47.4],
+                ["Royal Challengers Bangalore", 55.45],
+                ["Sunrisers Hyderabad", 67.9],
+                ['Gujrat Titans', 51.85]
+            ]);
+            var data2023 = new google.visualization.arrayToDataTable([
+                ['Team', 'spending in crores'],
+                ["Chennai Super Kings", 18.95],
+                ["Rajasthan Royals", 9.85],
+                ["Mumbai Indians", 20.5],
+                ["Kolkata Knight Riders", 5.4],
+                ['Lucknow Super Giants', 19.8],
+                ["Punjab Kings", 20],
+                ["Delhi Capitals", 15],
+                ["Royal Challengers Bangalore", 7],
+                ["Sunrisers Hyderabad", 35.7],
+                ['Gujrat Titans', 14.8]
+            ]);
+            var data2024 = new google.visualization.arrayToDataTable([
+                ['Team', 'spending in crores'],
+                ["Chennai Super Kings", 30.4],
+                ["Rajasthan Royals", 14.3],
+                ["Mumbai Indians", 16.7],
+                ["Kolkata Knight Riders", 31.35],
+                ['Lucknow Super Giants', 12.2],
+                ["Punjab Kings", 24.95],
+                ["Delhi Capitals", 19.05],
+                ["Royal Challengers Bangalore", 20.4],
+                ["Sunrisers Hyderabad", 30.8],
+                ['Gujrat Titans', 30.3]
+            ]);
+            var data2025 = new google.visualization.arrayToDataTable([
+                ['Team', 'spending in crores'],
+                ["Chennai Super Kings", 54.95],
+                ["Rajasthan Royals", 40.7],
+                ["Mumbai Indians", 44.8],
+                ["Kolkata Knight Riders", 50.95],
+                ['Lucknow Super Giants', 68.9],
+                ["Punjab Kings", 110.15],
+                ["Delhi Capitals", 72.8],
+                ["Royal Challengers Bangalore", 82.25],
+                ["Sunrisers Hyderabad", 44.8],
+                ['Gujrat Titans', 68.85]
+            ]);
+
+            var data_total = new google.visualization.arrayToDataTable([
+                ['Year', 'Total spending in crores'],
+                ["2021",14.53],
+                ["2022",55.17],
+                ["2023",16.7],
+                ["2024",23.045],
+                ["2025",63.915]
+            ]);
+            var options_pie = {
+                title: "",
+                backgroundColor:{fill: 'transparent'},
+                height: 500,
+                width: '100%',
+                legend:{
+                    textStyle: {
+                        color: '#ffffff'
+                    }
+                }
+            };
+
+            var options = {
+                title: 'Teams',
+                width: 1400,
+                height: 500,
+                bar: {groupWidth: '75%'},
+                backgroundColor: {fill:'transparent'},
+                colors: ['#e49b09'],
+                titleTextStyle: {color: '#ffffff'},
+                hAxis:{
+                    textStyle: {color: '#ffffff'}
+                },
+                vAxis:{
+                    textStyle: {color: '#ffffff'}
+                }
+            };
+
+            var chart2021 = new google.visualization.BarChart(document.getElementById('2021'));
+            chart2021.draw(data2021, options);
+            var chart2022 = new google.visualization.BarChart(document.getElementById('2022'));
+            chart2022.draw(data2022, options);
+            var chart2023 = new google.visualization.BarChart(document.getElementById('2023'));
+            chart2023.draw(data2023, options);
+            var chart2024 = new google.visualization.BarChart(document.getElementById('2024'));
+            chart2024.draw(data2024, options);
+            var chart2025 = new google.visualization.BarChart(document.getElementById('2025'));
+            chart2025.draw(data2025, options);
+
+            var chart2025 = new google.visualization.PieChart(document.getElementById('total'));
+            chart2025.draw(data_total, options_pie);
+            
+        };
+    </script>
+    <body > 
+        <div id="head">
+            <h1>= IPL Analysis = </h1>
+        </div>
+        <div class="total">> Total spendings in crores <</div><br>
+        <div id ="total"></div><br><br>
+        <div>
+            <a href="#year1">
+                <button id="year">2021</button>
+            </a>
+            <a href="#year2">
+                <button id="year">2022</button>
+            </a>
+            <a href="#year3">
+                <button id="year">2023</button>
+            </a>
+            <a href="#year4">
+                <button id="year">2024</button>
+            </a>
+            <a href="#year5">
+                <button id="year">2025</button>
+            </a>
+        </div>
+        <br><br>
+        <hr>
+        <div class="year" id="year1" >> 2021 <</div>
+        <div class="graph" id ="2021"></div><br><br>
+
+        <div class="year" id="year2" >> 2022 <</div>
+        <div class="graph" id ="2022"></div><br><br>
+
+        <div class="year" id="year3" >> 2023 <</div>
+        <div class="graph" id ="2023"></div><br><br>
+
+        <div class="year" id="year4" >> 2024 <</div>
+        <div class="graph" id ="2024"></div><br><br>
+
+        <div class="year" id="year5">> 2025 <</div>
+        <div class="graph" id ="2025"></div><br><br>
+
+    </body>
+</html>
