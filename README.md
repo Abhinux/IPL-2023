@@ -1,6 +1,6 @@
 # IPL-2023
 In this project, we did a predictive analysis of team spendings per team in the last five years.
-Run <ins>**index.py**</ins> to run the project.
+Run <ins>**index.py**</ins> to run data collection and <ins>**index.html**</ins> to run the html.
 
 ## Data Collection
 We gathered selective data from the official site of IPL T20 i.e. https://iplt20.com/auction/ about the spendings of various teams over last five years using web scraping methods like beautifulsoup.
@@ -19,3 +19,4 @@ We handled data transformation in "Data_collection.py" file while writing data i
 
 ## Visual Representation
 You can find it in "Data Visualisation.py" file in which we used line graphs to plot yearly spendings of each team.
+As well as index.html which displays data in form of pie charts and bar graphs.
